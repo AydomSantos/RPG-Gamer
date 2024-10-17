@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* ======================== */
+
+/* body */
+body{
+    background: linear-gradient(to top, black, blue, black); 
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ======================== */
+
+/* main */
+
+.header{
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    color: #ffff;
+}
+
+.barra__container{
+  
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra__container .barra{
+    background: #fff;
+    height: 1px;
+    width: 300px;
+    background: #4C604A;
+}
+
+.barra__container .barra__principal{
+    height: 4px;
+    background: #0B17F8;
+}
+
+.main .main__titulo{
+    text-align: center;
+    color: #ffff;
+    margin-top: 2rem;
+    
+}
+
+.main .main__container{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+    height: 400px;
+    border: 1px solid #4C604A;
+    border-radius: 10px;
+}
+
+.main .main__container .main__box {
+    color: #ffff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main .main__container .main__box .main__box--btn{
+    background: #0478FD;
+    padding: 0.5rem 3rem;
+    border-radius: 18px;
+    margin-top: 1rem;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+.main .main__container .main__box  .devolver{
+    background: #353739;
+    color: #ffff;
+}
+
+.tracos__containe{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    margin-top: 5rem;
+}
+
+
+@media (max-width: 1441px){
+    .barra__container .barra{
+        width: 220px;
+        
+    }
+}
+
+
+@media (max-width: 1124px) {
+    .main .main__container{
+        flex-direction: column;
+        column-gap: 3;
+        width: 60%;
+        height: 100%;
+    }
+
+    .barra__container .barra{
+        width: 150px;
+        justify-content: space-evenly;
+    }
+
+    .main .main__container .main__box .main__box--btn{
+        margin-bottom: 2rem;
+    }
+}
+
+@media  (max-width: 810px){
+    .barra__container .barra{
+        width: 120px;
+    }
+}
+
+@media  (max-width: 555px){
+    .barra__container .barra{
+        width: 80px;
+    }
+
+
+    @media  (max-width: 440px){
+        .barra__container .barra{
+            width: 60px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tela mobile */
+
+
+/* ======================== */
